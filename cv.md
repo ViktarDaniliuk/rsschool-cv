@@ -91,3 +91,25 @@ LoftSchool - JavaScript developer (JavaScript, ReactJS, Redux, Node.js) - grade 
 - Git, GitHub,
 - MS Office, VS Code, Sublime, Brackets, Adobe Photoshop,
 
+### **Code example:**
+
+```
+const handleSubmit = e => {
+        e.preventDefault();
+        if (isFormCompleted()) {
+            let address = document.getElementById('address').textContent;
+            let placeName = document.getElementById('place-name').value;
+            let comment = document.getElementById('comment').value;
+            let date = getDate();
+
+            myPlacemark = createPlacemark(coords, getPointData(address, placeName, comment, date), getPointOptions());
+            myPlacemark.events.add('click', handlePlaceMarkClick);
+            myMap.geoObjects.add(myPlacemark);
+            clusterer.add(myPlacemark);
+            myMap.geoObjects.add(clusterer);
+            addStore(coords);
+            closePopup();
+        }
+    };
+```
+
