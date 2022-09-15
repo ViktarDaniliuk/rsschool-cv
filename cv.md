@@ -79,3 +79,15 @@ Educational level: engineer
 ### **Courses:**
 
 LoftSchool - JavaScript developer (JavaScript, ReactJS, Redux, Node.js) - grade A.
+
+### **Skills:**
+
+- HTML, CSS, Bootstrap,
+- JavaScript, JQuery,
+- ReactJS, Redux,
+- Node.js, Koa, Next.js 
+- Gulp, Webpack,
+- SQL,
+- Git, GitHub,
+- MS Office, VS Code, Sublime, Brackets, Adobe Photoshop,
+
