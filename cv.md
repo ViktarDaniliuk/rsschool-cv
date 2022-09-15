@@ -121,3 +121,15 @@ const handleSubmit = e => {
 
 - [Node.js](https://github.com/ViktarDaniliuk/Nodejs)
 
+### **Languages:**
+
+- English - C1,
+- Polish - native speaker,
+- Russian - native speaker,
+- Belarussian - native speaker,
+- Ukrainian - C1.
+
+### **Hobby:**
+
+- Traveling,
+- Reading.
