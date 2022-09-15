@@ -113,3 +113,11 @@ const handleSubmit = e => {
     };
 ```
 
+### **Projects:**
+
+- [Geolocation](https://github.com/ViktarDaniliuk/Geolocation/tree/Geolocation)
+
+- [Loft-Taxi](https://github.com/ViktarDaniliuk/Loft-Taxi/tree/loft_taxi)
+
+- [Node.js](https://github.com/ViktarDaniliuk/Nodejs)
+
