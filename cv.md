@@ -60,3 +60,22 @@ But every time when there were hard times at work that required me to be very de
 
 #### **Process Engineer** | Biełowieżskie Syry LLC | Wysokoje
 
+### **Education:**
+
+###### *02.2021 - 02.2022 (1 year 1 month)*
+#### **French Institute of Management**
+
+Specialization: Executive Master of Business Administration
+
+Educational level: MBA
+
+###### *09.2000 - 06.2005 (4 years 10 months)*
+
+#### **Mogilowski State Food University**
+
+Specialization: food technology and human nutrition
+
+Educational level: engineer
+### **Courses:**
+
+LoftSchool - JavaScript developer (JavaScript, ReactJS, Redux, Node.js) - grade A.
