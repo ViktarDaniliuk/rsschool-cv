@@ -40,10 +40,6 @@ header {
    margin: 0 auto;
 }
 
-.header-nav {
-
-}
-
 .header-nav ul {
    display: flex;
    flex-direction: row;
@@ -74,8 +70,6 @@ header {
 
 .main-text {
    position: absolute;
-   /* left: calc(); */
-   /* left: 880px; */
    right: 0;
    top: 86px;
 }
@@ -95,14 +89,14 @@ header {
    color: #FFEE2E;
 }
 
-.main-button {
+.main-button,
+.description-button {
    color: #ffffff;
    margin: 60px auto 0;
    width: 298px;
    height: 54px;
    border-radius: 27px;
-   background-color: linear-gradient(#F9804B 0%, #FE9013 100%);
-   background-color: #FE9013;
+   background-image: linear-gradient(#F9804B 0%, #FE9013 100%);
 }
 
 .button {
@@ -115,4 +109,142 @@ header {
    color: #ffffff;
    text-transform: uppercase;
    font-size: 16px;
+}
+
+.description {
+   height: 1830px;
+   padding-top: 140px;
+   background-image: url(../../assets/imgs/flower_foto1.png), url(../../assets/imgs/strelitzia\ 1.png), url(../../assets/imgs/palm_foto.png);
+   background-repeat: no-repeat;
+   background-position: 100% 15px, 100% 100%, 0% 100%;
+}
+
+.description-content {
+   margin: 0 auto;
+   width: 1160px;
+}
+
+.article {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+   height: 400px;
+}
+
+.article-content {
+   width: 465px;
+}
+
+.article-content h2 {
+   font-size: 48px;
+   font-weight: 400;
+   line-height: 58px;
+   line-height: 120%;
+   margin-bottom: 25px;
+}
+
+.article-content p {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 21px;
+   line-height: 130%;
+   margin-bottom: 55px;
+}
+
+.article-content h4 {
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 29px;
+   line-height: 120%;
+   margin-bottom: 35px;
+}
+
+.slider {
+   width: 100%;
+   height: 882px;
+   margin: 180px auto 80px;
+   position: relative;
+}
+
+.slider-button {
+   position: absolute;
+   color: #ffffff;
+   width: 62px;
+   height: 62px;
+   border-radius: 50%;
+   background-image: linear-gradient(#F9804B 0%, #FE9013 100%);
+}
+
+.slider-button-left {
+   left: -82px;
+   top: calc(100% / 2 - 31px);
+}
+
+.slider-button-right {
+   right: -82px;
+   top: calc(100% / 2 - 31px);
+}
+
+
+.slider-button .button {
+   display: block;
+   width: 62px;
+   height: 62px;
+   border-radius: 50%;
+   line-height: 54px;
+}
+
+.slider-button img {
+   position: relative;
+   top: 5px;
+}
+
+.slide {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 30px;
+}
+
+.card {
+   width: 366px;
+   height: 426px;
+   border: 1px solid;
+   border-color: orange;
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.card-link {
+   display: block;
+   padding-bottom: 10px;
+   color: #000000;
+}
+
+.card-description {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin: 4px 8px 0 16px;
+}
+
+.card h4 {
+   font-style: medium;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 22px;
+   line-height: 140%;
+   text-transform: uppercase;
+}
+
+.card p {
+   font-style: light;
+   font-weight: 300;
+   font-size: 15px;
+   line-height: 18px;
+   line-height: 120%;
+}
+
+.description-button {
+   margin-top: 80px;
 }
