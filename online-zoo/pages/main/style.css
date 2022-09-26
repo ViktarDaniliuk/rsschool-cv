@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
 	margin: 0;
 	padding: 0;
 	border: none;
@@ -7,15 +7,112 @@
 	box-sizing: border-box;
 }
 
+a {
+   text-decoration: none;
+}
+
 body {
+   max-width: 1600px;
 	background: #FFFFFF;
 	font-family: 'Roboto', sans-serif;
 	color: #333B41;
 }
 
 header {
-   max-width: 1600px;
-   height: 80px;
+   /* display: flex; */
+   /* flex-direction: row; */
+   width: 100%;
    background: #000000;
+   color: #FFFFFF;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 140%;
    backdrop-filter: blur(2px);
+}
+
+.header-content {
+   display: grid;
+   grid-template-columns: 82px 1fr 106px;
+   align-items: center;
+   width: 1160px;
+   height: 80px;
+   margin: 0 auto;
+}
+
+.header-nav {
+
+}
+
+.header-nav ul {
+   display: flex;
+   flex-direction: row;
+}
+
+.header-nav ul li {
+   height: 22px;
+   margin-left: 58px;
+   list-style-type: none;
+}
+
+.header-nav__link {
+   color: #FFFFFF;
+}
+
+.main {
+   background-image: url(../../assets/imgs/Ellipse\ 6.png), url(../../assets/imgs/Giant\ Panda.png);
+   background-repeat: no-repeat;
+   background-position: 807px 12px, 0% -80px;
+}
+
+.main-content {
+   position: relative;
+   width: 1160px;
+   height: 700px;
+   margin: 0 auto;
+}
+
+.main-text {
+   position: absolute;
+   /* left: calc(); */
+   /* left: 880px; */
+   right: 0;
+   top: 86px;
+}
+
+.main-text h1 {
+   width: 500px;
+   height: 400px;
+   font-weight: 700;
+   font-size: 106px;
+   line-height: 75%;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+.main-text h1 span {
+   color: #FFEE2E;
+}
+
+.main-button {
+   color: #ffffff;
+   margin: 60px auto 0;
+   width: 298px;
+   height: 54px;
+   border-radius: 27px;
+   background-color: linear-gradient(#F9804B 0%, #FE9013 100%);
+   background-color: #FE9013;
+}
+
+.button {
+   display: block;
+   width: 298px;
+   height: 54px;
+   border-radius: 27px;
+   line-height: 54px;
+   text-align: center;
+   color: #ffffff;
+   text-transform: uppercase;
+   font-size: 16px;
 }
