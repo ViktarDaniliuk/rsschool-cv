@@ -502,7 +502,7 @@ header {
    flex-direction: row;
    justify-content: space-between;
    align-items: flex-end;
-   padding-top: 49px;
+   padding-top: 35px;
 }
 
 a.footer-nav__link {
