@@ -90,7 +90,8 @@ header {
 }
 
 .main-button,
-.description-button {
+.description-button,
+.donate-button {
    color: #ffffff;
    margin: 60px auto 0;
    width: 298px;
@@ -247,4 +248,92 @@ header {
 
 .description-button {
    margin-top: 80px;
+}
+
+.donate {
+   height: 1004px;
+   padding-top: 69px;
+   background-image: url(../../assets/imgs/section4_pick-and-feed.png);
+}
+
+.donate-content {
+   width: 1160px;
+   height: 835px;
+   border-radius: 20px;
+   margin: 0 auto 100px;
+   padding: 40px 100px 0;
+   background-color: rgba(253, 253, 255, 0.52);
+   backdrop-filter: blur(4px)
+}
+
+.donate h2 {
+   font-size: 48px;
+   line-height: 58px;
+   font-weight: 400;
+   text-align: center;
+   color: #FE9013;
+   margin: 0 auto 30px;
+}
+
+.donate h4 {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 29px;
+   margin-bottom: 35px;
+}
+
+.donate p:nth-of-type(1) {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+}
+
+.donate p:nth-of-type(2) {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;
+   margin: 10px auto 60px;
+}
+
+.donate h3 {
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 47px;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.donate .container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin: 0 100px;
+}
+
+.donate-card {
+   width: 168px;
+   height: 244px;
+}
+
+.donate-card-img {
+   width: 168px;
+   height: 168px;
+   border-radius: 5px;
+   border: 1px solid orange;
+   background-color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.donate-card p {
+   margin-top: 30px;
+}
+
+.donate-arrow {
+   margin-top: 61px;
+}
+
+.donate-button {
+   margin-top: 50px;
 }
