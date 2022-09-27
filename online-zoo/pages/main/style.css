@@ -480,6 +480,7 @@ header {
    width: 228px;
    height: 42px;
    border-radius: 2px;
+   padding-left: 10px;
    border: 1px solid orange;
 }
 
@@ -497,6 +498,10 @@ header {
    border: 1px solid #4B9200;
 }
 
+.submit:hover {
+   cursor: pointer;
+}
+
 .footer-nav {
    display: flex;
    flex-direction: row;
@@ -510,9 +515,10 @@ a.footer-nav__link {
    color: #ffffff;
 }
 
-a.footer-nav__link:hover {
+a.footer-nav__link:hover,
+a.header-nav__link:hover {
    color: orange;
-   /* transition: 0.5s; */
+   transition: 0.3s;
 }
 
 .footer-menu ul {
