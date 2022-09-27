@@ -516,7 +516,9 @@ a.footer-nav__link {
 }
 
 a.footer-nav__link:hover,
-a.header-nav__link:hover {
+a.header-nav__link:hover,
+a.footer-nav__link:active,
+a.header-nav__link:active {
    color: orange;
    transition: 0.3s;
 }
